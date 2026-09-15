@@ -1,0 +1,181 @@
+{
+  "run_date": "2026-09-15",
+  "commit": "ed0de001a7bf851c91dd9f7521e0511256ef2587",
+  "datasets": {
+    "hospital_general_info": {
+      "title": "Hospital General Information",
+      "rows": 0,
+      "error": "Extraction failed: 404 Client Error: Not Found for url: https://data.cms.gov/provider-data/api/1/datastore/query/90fa4cdf-f49d-556d-8790-d32fbbec40c6/0?limit=5000&offset=0",
+      "checks": [
+        {
+          "check": "Availability",
+          "status": "FAIL",
+          "value": "extraction error",
+          "detail": "Extraction failed: 404 Client Error: Not Found for url: https://data.cms.gov/provider-data/api/1/datastore/query/90fa4cdf-f49d-556d-8790-d32fbbec40c6/0?limit=5000&offset=0"
+        },
+        {
+          "check": "Freshness",
+          "status": "PASS",
+          "value": "55 days",
+          "detail": "CMS last published 2026-07-22"
+        },
+        {
+          "check": "Conformity",
+          "status": "FAIL",
+          "value": "missing: Facility ID, Facility Name, State, Hospital Type, Hospital overall rating",
+          "detail": "Schema drift detected"
+        }
+      ]
+    },
+    "timely_effective_care": {
+      "title": "Timely and Effective Care - Hospital",
+      "rows": 0,
+      "error": "Extraction failed: 404 Client Error: Not Found for url: https://data.cms.gov/provider-data/api/1/datastore/query/c99ae75e-0a7d-5db4-99ed-3ba2b7324baf/0?limit=5000&offset=0",
+      "checks": [
+        {
+          "check": "Availability",
+          "status": "FAIL",
+          "value": "extraction error",
+          "detail": "Extraction failed: 404 Client Error: Not Found for url: https://data.cms.gov/provider-data/api/1/datastore/query/c99ae75e-0a7d-5db4-99ed-3ba2b7324baf/0?limit=5000&offset=0"
+        },
+        {
+          "check": "Freshness",
+          "status": "PASS",
+          "value": "55 days",
+          "detail": "CMS last published 2026-07-22"
+        },
+        {
+          "check": "Conformity",
+          "status": "FAIL",
+          "value": "missing: Facility ID, Measure ID, Measure Name, Score",
+          "detail": "Schema drift detected"
+        }
+      ]
+    },
+    "readmissions_deaths": {
+      "title": null,
+      "rows": 0,
+      "error": "No metastore match for keywords: ('readmissions complications and deaths',)",
+      "checks": [
+        {
+          "check": "Availability",
+          "status": "FAIL",
+          "value": "extraction error",
+          "detail": "No metastore match for keywords: ('readmissions complications and deaths',)"
+        },
+        {
+          "check": "Freshness",
+          "status": "FAIL",
+          "value": "unknown",
+          "detail": "CMS published no modified date"
+        },
+        {
+          "check": "Conformity",
+          "status": "FAIL",
+          "value": "missing: Facility ID, Measure ID, Measure Name, Score",
+          "detail": "Schema drift detected"
+        }
+      ]
+    },
+    "unplanned_visits": {
+      "title": "Complications and Unplanned Hospital Visits - PPS-Exempt Cancer Hospital - Hospital",
+      "rows": 0,
+      "error": "Extraction failed: 404 Client Error: Not Found for url: https://data.cms.gov/provider-data/api/1/datastore/query/9bcf37d7-d942-538a-a7e7-0362cfd86dda/0?limit=5000&offset=0",
+      "checks": [
+        {
+          "check": "Availability",
+          "status": "FAIL",
+          "value": "extraction error",
+          "detail": "Extraction failed: 404 Client Error: Not Found for url: https://data.cms.gov/provider-data/api/1/datastore/query/9bcf37d7-d942-538a-a7e7-0362cfd86dda/0?limit=5000&offset=0"
+        },
+        {
+          "check": "Freshness",
+          "status": "PASS",
+          "value": "55 days",
+          "detail": "CMS last published 2026-07-22"
+        },
+        {
+          "check": "Conformity",
+          "status": "FAIL",
+          "value": "missing: Facility ID, Measure ID, Measure Name, Rate",
+          "detail": "Schema drift detected"
+        }
+      ]
+    },
+    "healthcare_associated_infections": {
+      "title": "Healthcare Associated Infections - Hospital",
+      "rows": 0,
+      "error": "Extraction failed: 404 Client Error: Not Found for url: https://data.cms.gov/provider-data/api/1/datastore/query/e0d50f03-1d75-57ac-a6a9-60bf9cdb9407/0?limit=5000&offset=0",
+      "checks": [
+        {
+          "check": "Availability",
+          "status": "FAIL",
+          "value": "extraction error",
+          "detail": "Extraction failed: 404 Client Error: Not Found for url: https://data.cms.gov/provider-data/api/1/datastore/query/e0d50f03-1d75-57ac-a6a9-60bf9cdb9407/0?limit=5000&offset=0"
+        },
+        {
+          "check": "Freshness",
+          "status": "PASS",
+          "value": "55 days",
+          "detail": "CMS last published 2026-07-22"
+        },
+        {
+          "check": "Conformity",
+          "status": "FAIL",
+          "value": "missing: Facility ID, Measure ID, Measure Name, Score",
+          "detail": "Schema drift detected"
+        }
+      ]
+    },
+    "hcahps": {
+      "title": "Patient survey (HCAHPS) - Hospital",
+      "rows": 0,
+      "error": "Extraction failed: 404 Client Error: Not Found for url: https://data.cms.gov/provider-data/api/1/datastore/query/b42ae2a7-5512-5cb4-b429-d3eaaab212d7/0?limit=5000&offset=0",
+      "checks": [
+        {
+          "check": "Availability",
+          "status": "FAIL",
+          "value": "extraction error",
+          "detail": "Extraction failed: 404 Client Error: Not Found for url: https://data.cms.gov/provider-data/api/1/datastore/query/b42ae2a7-5512-5cb4-b429-d3eaaab212d7/0?limit=5000&offset=0"
+        },
+        {
+          "check": "Freshness",
+          "status": "PASS",
+          "value": "55 days",
+          "detail": "CMS last published 2026-07-22"
+        },
+        {
+          "check": "Conformity",
+          "status": "FAIL",
+          "value": "missing: Facility ID, Measure ID, Measure Name, Patient Survey Star Rating",
+          "detail": "Schema drift detected"
+        }
+      ]
+    },
+    "nursing_home_provider_info": {
+      "title": null,
+      "rows": 0,
+      "error": "No metastore match for keywords: ('nursing home', 'provider information')",
+      "checks": [
+        {
+          "check": "Availability",
+          "status": "FAIL",
+          "value": "extraction error",
+          "detail": "No metastore match for keywords: ('nursing home', 'provider information')"
+        },
+        {
+          "check": "Freshness",
+          "status": "FAIL",
+          "value": "unknown",
+          "detail": "CMS published no modified date"
+        },
+        {
+          "check": "Conformity",
+          "status": "FAIL",
+          "value": "missing: Federal Provider Number, Provider Name, State, Overall Rating",
+          "detail": "Schema drift detected"
+        }
+      ]
+    }
+  }
+}
