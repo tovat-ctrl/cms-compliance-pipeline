@@ -71,6 +71,10 @@ The generated scorecard includes an executive summary, a dataset × control matr
 - **Machine + human outputs** — `reports/run_metadata.json` supports downstream dashboarding; the Markdown scorecard is written for human reviewers.
 - **Audit trail** — every run is archived immutably under `reports/archive/`, keyed by timestamp.
 
+## Portfolio case study
+
+For a deeper walkthrough of the problem, approach, audit-control mapping, and skills demonstrated, see [docs/case-study.md](docs/case-study.md).
+
 ## Data use
 
 All data originates from the [CMS Provider Data Catalog](https://data.cms.gov/provider-data/) and is subject to CMS public information posting terms. This repository is not affiliated with or endorsed by CMS.
