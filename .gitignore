@@ -1,9 +1,13 @@
+# Python
 __pycache__/
-*.pyc
-.pytest_cache/
-run.log
+*.py[cod]
+.venv/
+venv/
+
+# Pipeline artifacts (raw bulk data is re-downloaded every run)
 data/raw/
-data/warehouse/
-# Audit ledger and reports are intentionally committed — they are the evidence.
-!data/audit/
-!data/reports/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
