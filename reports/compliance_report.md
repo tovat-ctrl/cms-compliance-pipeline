@@ -2,9 +2,9 @@
 
 _Automated audit of publicly reported CMS provider-quality data._
 
-**Run (UTC):** 2026-10-05 09:06  
-**Commit:** `f9d670092293`  
-**Evaluation date:** 2026-10-05
+**Run (UTC):** 2026-10-12 09:08  
+**Commit:** `7184f83b424c`  
+**Evaluation date:** 2026-10-12
 
 ## Executive summary
 
@@ -32,7 +32,7 @@ _Automated audit of publicly reported CMS provider-quality data._
 | Control | Status | Result | Detail |
 |---|---|---|---|
 | Availability | ❌ FAIL | extraction error | Extraction failed: 404 Client Error: Not Found for url: https://data.cms.gov/provider-data/api/1/datastore/query/90fa4cdf-f49d-556d-8790-d32fbbec40c6/0?limit=5000&offset=0 |
-| Freshness | ✅ PASS | 75 days | CMS last published 2026-07-22 |
+| Freshness | ✅ PASS | 82 days | CMS last published 2026-07-22 |
 | Conformity | ❌ FAIL | missing: Facility ID, Facility Name, State, Hospital Type, Hospital overall rating | Schema drift detected |
 
 ### Process quality — `timely_effective_care`
@@ -40,7 +40,7 @@ _Automated audit of publicly reported CMS provider-quality data._
 | Control | Status | Result | Detail |
 |---|---|---|---|
 | Availability | ❌ FAIL | extraction error | Extraction failed: 404 Client Error: Not Found for url: https://data.cms.gov/provider-data/api/1/datastore/query/c99ae75e-0a7d-5db4-99ed-3ba2b7324baf/0?limit=5000&offset=0 |
-| Freshness | ✅ PASS | 75 days | CMS last published 2026-07-22 |
+| Freshness | ✅ PASS | 82 days | CMS last published 2026-07-22 |
 | Conformity | ❌ FAIL | missing: Facility ID, Measure ID, Measure Name, Score | Schema drift detected |
 
 ### Outcome quality — `readmissions_deaths`
@@ -56,7 +56,7 @@ _Automated audit of publicly reported CMS provider-quality data._
 | Control | Status | Result | Detail |
 |---|---|---|---|
 | Availability | ❌ FAIL | extraction error | Extraction failed: 404 Client Error: Not Found for url: https://data.cms.gov/provider-data/api/1/datastore/query/ad2fc4bd-38ad-5f32-ab05-3816b5d6ced1/0?limit=5000&offset=0 |
-| Freshness | ✅ PASS | 25 days | CMS last published 2026-09-10 |
+| Freshness | ✅ PASS | 32 days | CMS last published 2026-09-10 |
 | Conformity | ❌ FAIL | missing: Facility ID, Measure ID, Measure Name, Rate | Schema drift detected |
 
 ### Patient safety — `healthcare_associated_infections`
@@ -64,7 +64,7 @@ _Automated audit of publicly reported CMS provider-quality data._
 | Control | Status | Result | Detail |
 |---|---|---|---|
 | Availability | ❌ FAIL | extraction error | Extraction failed: 404 Client Error: Not Found for url: https://data.cms.gov/provider-data/api/1/datastore/query/e0d50f03-1d75-57ac-a6a9-60bf9cdb9407/0?limit=5000&offset=0 |
-| Freshness | ✅ PASS | 75 days | CMS last published 2026-07-22 |
+| Freshness | ✅ PASS | 82 days | CMS last published 2026-07-22 |
 | Conformity | ❌ FAIL | missing: Facility ID, Measure ID, Measure Name, Score | Schema drift detected |
 
 ### Patient experience — `hcahps`
@@ -72,7 +72,7 @@ _Automated audit of publicly reported CMS provider-quality data._
 | Control | Status | Result | Detail |
 |---|---|---|---|
 | Availability | ❌ FAIL | extraction error | Extraction failed: 404 Client Error: Not Found for url: https://data.cms.gov/provider-data/api/1/datastore/query/b42ae2a7-5512-5cb4-b429-d3eaaab212d7/0?limit=5000&offset=0 |
-| Freshness | ✅ PASS | 75 days | CMS last published 2026-07-22 |
+| Freshness | ✅ PASS | 82 days | CMS last published 2026-07-22 |
 | Conformity | ❌ FAIL | missing: Facility ID, Measure ID, Measure Name, Patient Survey Star Rating | Schema drift detected |
 
 ### Long-term care — `nursing_home_provider_info`

@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-10-05",
-  "commit": "f9d670092293bba3b1e29254aacc7f88ce34dbe8",
+  "run_date": "2026-10-12",
+  "commit": "7184f83b424cc2669119d8bf5d21adc18176e4f1",
   "datasets": {
     "hospital_general_info": {
       "title": "Hospital General Information",
@@ -16,7 +16,7 @@
         {
           "check": "Freshness",
           "status": "PASS",
-          "value": "75 days",
+          "value": "82 days",
           "detail": "CMS last published 2026-07-22"
         },
         {
@@ -41,7 +41,7 @@
         {
           "check": "Freshness",
           "status": "PASS",
-          "value": "75 days",
+          "value": "82 days",
           "detail": "CMS last published 2026-07-22"
         },
         {
@@ -91,7 +91,7 @@
         {
           "check": "Freshness",
           "status": "PASS",
-          "value": "25 days",
+          "value": "32 days",
           "detail": "CMS last published 2026-09-10"
         },
         {
@@ -116,7 +116,7 @@
         {
           "check": "Freshness",
           "status": "PASS",
-          "value": "75 days",
+          "value": "82 days",
           "detail": "CMS last published 2026-07-22"
         },
         {
@@ -141,7 +141,7 @@
         {
           "check": "Freshness",
           "status": "PASS",
-          "value": "75 days",
+          "value": "82 days",
           "detail": "CMS last published 2026-07-22"
         },
         {
